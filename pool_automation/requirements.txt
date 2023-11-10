@@ -1,3 +1,4 @@
 ansible
 boto3
 pexpect>=3.3 # required by ansible expect module
+ansible-core>=2.13.13rc1 # not directly required, pinned by Snyk to avoid a vulnerability
