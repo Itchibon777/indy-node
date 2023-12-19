@@ -3,3 +3,4 @@ testinfra
 python-vagrant
 boto # get rid of that
 docker
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
