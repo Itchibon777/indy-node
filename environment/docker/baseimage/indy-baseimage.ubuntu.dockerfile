@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20201014
 LABEL maintainer="Hyperledger <hyperledger-indy@lists.hyperledger.org>"
 
 RUN apt-get update && apt-get dist-upgrade -y
